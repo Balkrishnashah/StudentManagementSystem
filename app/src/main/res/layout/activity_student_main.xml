@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EAE0E0"
+    tools:context=".StudentMainActivity"
+    android:layout_gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="student Management System"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-black"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:padding="30dp"
+        android:layout_marginTop="50dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:id="@+id/roll_no"
+            android:ems="10"
+            android:hint="Enter Roll No"
+            android:textSize="18sp"
+            android:textColorHint="#000"
+            android:background="@drawable/box_bg"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:elevation="6dp"/>
+        <requestFocus />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:id="@+id/name"
+            android:ems="10"
+            android:hint="@string/name"
+            android:inputType="text"
+            android:textColorHint="#000"
+            android:background="@drawable/box_bg"
+            android:textColor="#000"
+            android:elevation="6dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/marks"
+            android:ems="10"
+            android:hint="@string/marks"
+            android:inputType="number"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:background="@drawable/box_bg"
+            android:paddingLeft="10dp"
+            android:elevation="6dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/addbtn"
+                android:layout_width="135dp"
+                android:layout_height="50dp"
+                android:text="ADD"
+                android:background="@drawable/box_bg"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="#fff"
+                android:elevation="6dp"
+                />
+
+            <Button
+                android:id="@+id/deletebtn"
+                android:layout_width="135dp"
+                android:layout_height="50dp"
+                android:text="DELETE"
+                android:background="@drawable/box_bg"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="#fff"
+                android:elevation="6dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal">
+
+
+            <Button
+                android:id="@+id/modifybtn"
+                android:layout_width="135dp"
+                android:layout_height="50dp"
+                android:text="MODIFY"
+                android:background="@drawable/box_bg"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="#fff"
+                android:elevation="6dp"/>
+
+            <Button
+                android:id="@+id/viewbtn"
+                android:layout_width="135dp"
+                android:layout_height="50dp"
+                android:text="VIEW"
+                android:background="@drawable/box_bg"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="#fff"
+                android:elevation="6dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal">
+
+
+            <Button
+                android:id="@+id/viewallbtn"
+                android:layout_width="135dp"
+                android:layout_height="50dp"
+                android:text="VIEW ALL"
+                android:background="@drawable/box_bg"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="#fff"
+                android:elevation="6dp"/>
+
+            <Button
+                android:id="@+id/showbtn"
+                android:layout_width="135dp"
+                android:layout_height="50dp"
+                android:text="SHOW"
+                android:background="@drawable/box_bg"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="#fff"
+                android:elevation="6dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

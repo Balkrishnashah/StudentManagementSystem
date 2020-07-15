@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">StudentManagementSystem</string>
+    <string-array name="rollno">
+        <item>FE</item>
+        <item>SE</item>
+        <item>TE</item>
+        <item>BE</item>
+    </string-array>
+    <string name="name">Enter Student Name</string>
+    <string name="marks">Enter percentage</string>
+</resources>
